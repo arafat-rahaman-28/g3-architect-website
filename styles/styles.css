@@ -167,6 +167,28 @@ main > section{
 
 
 
+/* FEATURES SECTION STYLES */
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.feature-card{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.features{
+    gap: 100px;
+}
+
 /* responsive styles */
 @media screen and (max-width: 576px) {
     .navbar, 
