@@ -1,3 +1,37 @@
 body{
     font-family: Work sans;
 }
+
+/* SHARED STYLES */
+.display-flex{
+    display: flex;
+}
+/* dark 02 */
+.text-gray{
+    color: #424242;
+}
+/* dark 03 */
+.text-light-gray{
+    color: #727272;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* HEADER STYLES */
+
+/* NAV BAR STYLES */
+.navbar{
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar, .banner{
+    max-width: 1140px;
+    margin: 0px auto;
+}
